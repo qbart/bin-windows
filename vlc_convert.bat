@@ -1,0 +1,1 @@
+"C:\Program Files\VideoLAN\VLC\vlc.exe" -I dummy %1 --sout=#transcode{acodec=mp3,ab=320,channels=2,samplerate=44100}:standard{access=file,mux=dummy,dst=%2} --sout-transcode-high-priority --sout-transcode-threads=7 vlc://quit
